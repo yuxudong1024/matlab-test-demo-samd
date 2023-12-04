@@ -1,0 +1,1 @@
+funcReqs = slreq.open("egcAppReq");
