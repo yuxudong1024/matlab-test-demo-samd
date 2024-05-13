@@ -45,5 +45,5 @@ Dry run recording by John Brennan and Oscar Molina is available on this [link (u
 Akhilesh Mishra, Oscar Molina
 
 ## Mirror
-This repo will be miirored to [github](https://github.com/yuxudong1024/matlab-test-demo-samd) and [external gitlab](https://external-git.mathworks.com/ae-cloud-demo/cicd/matlab-test-demo-samd)
+This repo will be miirored to [github](https://github.com/yuxudong1024/matlab-test-demo-samd)
 
