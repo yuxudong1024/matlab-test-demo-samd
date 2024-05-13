@@ -19,6 +19,7 @@ In this demo, we demonstrate how MATLAB Test can help manage large unit test sui
 The demo can take a bit to fire up. Here's what you should expect:
 
 - **You must run the full unit test suite before using the demo**. As a result, the "derived" folder will be added to your project folder. This is where the information pulled by the Code Quality Dashboard is stored.
+- At the beginning, once you open the project file, it will ask you if you want to download data which is too big for git, you need to answer yes, otherwise demo won't work
 - Main unit tests are linked to MATLAB Project
 - Requirements Toolbox and some MATLAB files open up at project start up.  Note that the linking is visible when the files are open.
 - Script-based testing of patient.m is the simplest way to introduce MUTF to customers, then explain how to 'convert' the testing script to a class-based test suite.
