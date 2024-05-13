@@ -1,0 +1,1962 @@
+<?xml version="1.0"?>
+<REQ-IF  xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="_580898fd-86ad-495d-94ff-8f82a2bda05a">
+      <COMMENT></COMMENT>
+      <CREATION-TIME>2020-04-07T12:36:13-07:00</CREATION-TIME>
+      <REPOSITORY-ID></REPOSITORY-ID>
+      <REQ-IF-TOOL-ID>Requirements Toolbox</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>Requirements Toolbox</SOURCE-TOOL-ID>
+      <TITLE>temp</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING DESC="" IDENTIFIER="b16e21df-7464-4f37-9214-8d74ffa17ef6" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="ReqIF.ForeignID" MAX-LENGTH="0"/>
+        <DATATYPE-DEFINITION-XHTML DESC="" IDENTIFIER="_6a60f0a4-0de7-42ba-8bd2-36ab0d77450b" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="ReqIF.Text"/>
+        <DATATYPE-DEFINITION-STRING DESC="" IDENTIFIER="c140dfe8-4701-4842-8963-8a245e670c41" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="ReqIF.ChapterName" MAX-LENGTH="0"/>
+        <DATATYPE-DEFINITION-DATE DESC="" IDENTIFIER="a975cfc4-479e-443b-a36c-63244184f825" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="CreatedOn"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE DESC="" IDENTIFIER="_9ac6ee73-ad08-434c-960c-8cfe13e03ded" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="Requirement">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING DESC="" IDENTIFIER="_4071a8aa-8149-485d-b344-361574cf96b9" IS-EDITABLE="false" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="ReqIF.ForeignID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>b16e21df-7464-4f37-9214-8d74ffa17ef6</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-XHTML DESC="" IDENTIFIER="_4cd3770e-9ddf-4f34-a93d-55e0808d1df9" IS-EDITABLE="false" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="ReqIF.Text">
+              <TYPE>
+                <DATATYPE-DEFINITION-XHTML-REF>_6a60f0a4-0de7-42ba-8bd2-36ab0d77450b</DATATYPE-DEFINITION-XHTML-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-XHTML>
+            <ATTRIBUTE-DEFINITION-STRING DESC="" IDENTIFIER="f93675cc-237c-4fe1-9284-5cfbf3634129" IS-EDITABLE="false" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="ReqIF.ChapterName">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>c140dfe8-4701-4842-8963-8a245e670c41</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-XHTML DESC="" IDENTIFIER="e41a3c04-9ec4-497e-ba3a-3d7af48535a2" IS-EDITABLE="false" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="Rationale">
+              <TYPE>
+                <DATATYPE-DEFINITION-XHTML-REF>_6a60f0a4-0de7-42ba-8bd2-36ab0d77450b</DATATYPE-DEFINITION-XHTML-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-XHTML>
+            <ATTRIBUTE-DEFINITION-STRING DESC="" IDENTIFIER="_664f695f-24ba-4aa2-8546-d907d3f5f8b6" IS-EDITABLE="false" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="CreatedBy">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>b16e21df-7464-4f37-9214-8d74ffa17ef6</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING DESC="" IDENTIFIER="_66fde14f-36e9-40c9-9b6a-9171507c89fd" IS-EDITABLE="false" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="ModifiedBy">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>b16e21df-7464-4f37-9214-8d74ffa17ef6</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING DESC="" IDENTIFIER="_567f210b-d292-4005-a752-7dbe3ab386ad" IS-EDITABLE="false" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="Keywords">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>b16e21df-7464-4f37-9214-8d74ffa17ef6</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-DATE DESC="" IDENTIFIER="b4efb40e-0cbc-4852-a84e-80d1add3bbd4" IS-EDITABLE="false" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="CreatedOn">
+              <TYPE>
+                <DATATYPE-DEFINITION-DATE-REF>a975cfc4-479e-443b-a36c-63244184f825</DATATYPE-DEFINITION-DATE-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-DATE>
+            <ATTRIBUTE-DEFINITION-DATE DESC="" IDENTIFIER="_22458bc2-6632-40c9-b104-7ebc60214ba5" IS-EDITABLE="false" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="ModifiedOn">
+              <TYPE>
+                <DATATYPE-DEFINITION-DATE-REF>a975cfc4-479e-443b-a36c-63244184f825</DATATYPE-DEFINITION-DATE-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-DATE>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE DESC="" IDENTIFIER="af022453-37d5-467d-904b-64d522161eec" LAST-CHANGE="1969-12-31T16:00:00-08:00" LONG-NAME="RequirementSet">
+          <SPEC-ATTRIBUTES/>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_43d6f79f-afe2-437f-b88e-538d5e0e8e2a" LAST-CHANGE="2023-08-02T05:35:58-07:00" LONG-NAME="#1">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Patients must be represented by a structure object. Implement a function that takes patient's data as input arguments and returns a structure containing such information. Assertions must be used to verify integrity of inputs.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Patient data must be stored a structure">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T17:15:50-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-08-02T05:35:58-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_1070d177-a1c4-437e-aac9-9476d27abb83" LAST-CHANGE="2023-07-31T16:27:08-07:00" LONG-NAME="#2">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:34:47-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Patient's first and last name must be valid alphabetic char arrays or strings or a combination of them. Non-alphabetic characters are not allowed.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:27:08-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="First/last names must be alphabetic">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:34:47-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:27:08-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_903c9321-15cf-4182-89a2-158692aadd5d" LAST-CHANGE="2023-07-31T16:30:24-07:00" LONG-NAME="#3">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:38:09-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Patient's age must be between 0 and 150 years. Negative and non-integer numbers are not allowed.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:30:24-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Age must be between 0 and 150">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:38:09-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:30:24-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="afc68696-f480-4ce8-a157-00978240d65b" LAST-CHANGE="2023-07-31T16:30:44-07:00" LONG-NAME="#4">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:38:49-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Patient ID must be an integer greater than 0. A patient's ID must be unique.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:30:44-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Patient ID must be greater than 0">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:38:49-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:30:44-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_5732da17-9753-436f-a4b0-4fad869203c7" LAST-CHANGE="2023-07-31T16:32:31-07:00" LONG-NAME="#5">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:40:19-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#5">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ECG signal frequency must be a positive integer number.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:32:31-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Frequency must be a positive integer">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:40:19-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:32:31-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_1fa8db41-60df-4dd9-95fe-7824f1dcb4eb" LAST-CHANGE="2023-07-31T16:34:12-07:00" LONG-NAME="#6">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:41:22-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#6">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ECG signal must be valid and have a minimum length of 30 seconds.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:34:12-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ECG signal integrity">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-20T18:41:22-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:34:12-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_6d7568f9-ef7e-46fa-9f61-75bece80a459" LAST-CHANGE="2023-07-31T14:51:48-07:00" LONG-NAME="#7">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T11:56:57-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#7">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Calculate a patient's breath rate by performing wave decomposition on and normalizing ECG signal.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:51:48-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Breath rate calculation">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T11:56:57-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:51:48-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="fa8add01-7103-41c1-95ad-e447ecfe8a71" LAST-CHANGE="2023-07-31T14:52:00-07:00" LONG-NAME="#8">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T11:57:44-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#8">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Breath rate must be between 8 and 25 bps; otherwise, return -1</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:52:00-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Test valid bounds">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T11:57:44-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:52:00-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_75f23e75-d0c6-4d3a-98b1-a40ffb6d8ec9" LAST-CHANGE="2023-07-31T15:03:14-07:00" LONG-NAME="#11">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:55:39-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#11">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Use MATLAB to decompose and reconstruct input ECG signal for breath rate calculations</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:03:14-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wave conditioning">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:55:39-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:03:14-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_01d65c98-5934-4f27-8aaa-02c80299b24a" LAST-CHANGE="2023-07-31T15:15:32-07:00" LONG-NAME="#10">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:54:57-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#10">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Peaks from input ECG signal must have at least 300 samples between them</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:15:32-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Minimum distance between peaks">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:54:57-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:15:32-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="ee648ec4-b42a-4560-b149-105a4cf490ce" LAST-CHANGE="2023-07-31T15:18:55-07:00" LONG-NAME="#9">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:52:07-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#9">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Breath rate calculation must be compiled as a static C library. Relative error of output calculations must be less than 1E-6 compared to MATLAB's original function.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:18:55-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Equivalent results from C library">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T14:52:07-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:18:55-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_92e765d5-9662-43d6-9fab-0330de062115" LAST-CHANGE="2023-07-31T15:12:57-07:00" LONG-NAME="#12">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:12:17-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#12">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Implement MATLAB's signal detrending algorithm to condition input ECG for heart rate calculation.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:12:57-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Heart rate calculation">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:12:17-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:12:57-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_312e5a33-2efd-4e9c-8951-052502a11e4e" LAST-CHANGE="2023-07-31T15:16:02-07:00" LONG-NAME="#13">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:13:17-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#13">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Peaks from input ECG signal must have a minimum of 50 samples in between.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:16:02-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Minimum distance between peaks">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:13:17-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:16:02-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="cf00aa5d-25e4-44a3-ab82-dfb366567a21" LAST-CHANGE="2023-07-31T15:17:01-07:00" LONG-NAME="#14">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:14:06-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#14">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">After detrending and normalizing the signal, peaks must be at least 0.3 in absolute height.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:17:01-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Minimum peak height">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:14:06-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:17:01-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_005de8b6-17b7-478a-bd8c-616d24c569f7" LAST-CHANGE="2023-07-31T15:20:43-07:00" LONG-NAME="#16">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:20:09-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#16">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Heart rate calculation should return an output between 50 and 200 bpm.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:20:43-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Test valid bounds">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:20:09-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:20:43-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_4de8d2ff-9da5-431a-b43d-b5d595c077bf" LAST-CHANGE="2023-07-31T15:18:29-07:00" LONG-NAME="#15">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:17:11-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#15">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Heart rate calculation should be exported as a static C library. The relative error between results from this library and the original MATLAB function must not be greater than 1E-6.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:18:29-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Equivalent results from C library">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:17:11-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:18:29-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_9a304c99-1d2d-407c-a81b-4658be1673f5" LAST-CHANGE="2023-07-31T15:32:55-07:00" LONG-NAME="#17">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:32:26-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#17">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:32:55-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Heart condition classifier">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:32:26-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:32:55-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="f7c61dba-6b36-4026-9040-0671fd55955e" LAST-CHANGE="2023-07-31T15:57:44-07:00" LONG-NAME="#19">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:33:00-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#19">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Use alexnet to train the network with new scalograms from the test set.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:57:44-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Use pre-trained deep learning network">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:33:00-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:57:44-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_4eb3cddc-b0fd-480d-885e-da0c417212a9" LAST-CHANGE="2023-07-31T15:58:27-07:00" LONG-NAME="#20">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:33:01-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#20">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:58:27-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Convert input ECG signal to scalogram">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:33:01-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:58:27-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_82041b81-13c1-47cc-9b14-40a6dba4a624" LAST-CHANGE="2023-07-31T16:01:38-07:00" LONG-NAME="#21">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:33:49-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#21">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Deep learning classification algorithm must be capable of running on either multi-core CPUs or GPUs.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:01:38-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Parallel processing architecture">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T15:33:49-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:01:38-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="e35233e6-06f3-4dce-918c-bc2046106e41" LAST-CHANGE="2023-07-31T16:03:35-07:00" LONG-NAME="#22">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:00:29-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="#22">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Classification algorithm must be compared against a cross-validation set of ECG signals with labeled heart conditions.</xhtml:p></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:03:35-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Classification algorithm must be verified">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>e41a3c04-9ec4-497e-ba3a-3d7af48535a2</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_664f695f-24ba-4aa2-8546-d907d3f5f8b6</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="omolinao">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_66fde14f-36e9-40c9-9b6a-9171507c89fd</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_567f210b-d292-4005-a752-7dbe3ab386ad</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:00:29-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>b4efb40e-0cbc-4852-a84e-80d1add3bbd4</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+            <ATTRIBUTE-VALUE-DATE THE-VALUE="2023-07-31T16:03:35-07:00">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-DATE-REF>_22458bc2-6632-40c9-b104-7ebc60214ba5</ATTRIBUTE-DEFINITION-DATE-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-DATE>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPEC-RELATIONS/>
+      <SPECIFICATIONS>
+        <SPECIFICATION DESC="" IDENTIFIER="_1fecf36f-df33-455a-a67a-1b80b9c7f6cb" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="ecgAppReq1">
+          <VALUES/>
+          <CHILDREN>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="_26fdb8aa-1ff1-4e46-acd7-3739206d74ba" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#1">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="fb9171ea-c7a5-4db7-b5bd-e52c1113e2bc" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#2">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_1070d177-a1c4-437e-aac9-9476d27abb83</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_39af6cd2-0757-49fb-8ebc-0ba868b70d58" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#3">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_903c9321-15cf-4182-89a2-158692aadd5d</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_251873b0-087f-43c7-9e9d-d769098a2ab6" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#4">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>afc68696-f480-4ce8-a157-00978240d65b</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_98e3da3f-cce7-4e18-a248-4cd7a238e9d0" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#5">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_5732da17-9753-436f-a4b0-4fad869203c7</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_0224ea18-641b-4f6a-9800-9ec7ac409abe" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#6">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_1fa8db41-60df-4dd9-95fe-7824f1dcb4eb</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>_43d6f79f-afe2-437f-b88e-538d5e0e8e2a</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="d1098555-556a-46a7-95f8-dbdbaa06fa87" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#7">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="f5fcd5a1-d787-4797-9d43-4c850154b045" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#8">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>fa8add01-7103-41c1-95ad-e447ecfe8a71</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="cb6af658-a246-4b43-8431-ccdf58e88720" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#11">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_75f23e75-d0c6-4d3a-98b1-a40ffb6d8ec9</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_56746c63-ba69-453f-8eb4-e427c21d8c55" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#10">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_01d65c98-5934-4f27-8aaa-02c80299b24a</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_75e9a777-5d83-4f12-b106-09d7141bd991" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#9">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>ee648ec4-b42a-4560-b149-105a4cf490ce</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>_6d7568f9-ef7e-46fa-9f61-75bece80a459</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="_3bfaa40e-409b-47ec-b730-c799b83a06ab" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#12">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_7197333f-06ff-4f42-ab16-6018be97e13b" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#13">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_312e5a33-2efd-4e9c-8951-052502a11e4e</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_4b0deb49-5683-432d-bdef-a9c3678c4470" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#14">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>cf00aa5d-25e4-44a3-ab82-dfb366567a21</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_4e850d92-0ba1-44b2-9868-09ad95aa2a7d" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#16">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_005de8b6-17b7-478a-bd8c-616d24c569f7</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_0d2c6985-460d-4c8d-9fa9-71911acefbca" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#15">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_4de8d2ff-9da5-431a-b43d-b5d595c077bf</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>_92e765d5-9662-43d6-9fab-0330de062115</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="f1e06cb5-0f93-4881-803c-879605cc4cce" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#17">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_89db25f6-74a7-428f-9824-520739a8ea50" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#19">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>f7c61dba-6b36-4026-9040-0671fd55955e</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_449dfdae-2608-49c4-8bca-65d2d3c97c93" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#20">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_4eb3cddc-b0fd-480d-885e-da0c417212a9</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_3e107465-a01a-4634-acde-ce46f8c958dd" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#21">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_82041b81-13c1-47cc-9b14-40a6dba4a624</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_4d5ce566-4c7d-4ff5-a4c5-e465d9d89fc3" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2024-02-22T15:14:40-08:00" LONG-NAME="#22">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>e35233e6-06f3-4dce-918c-bc2046106e41</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>_9a304c99-1d2d-407c-a81b-4658be1673f5</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>af022453-37d5-467d-904b-64d522161eec</SPECIFICATION-TYPE-REF>
+          </TYPE>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+      <SPEC-RELATION-GROUPS/>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS/>
+</REQ-IF>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info>
+    <Info name="mySuite" type="TAGS">
+        <Info value="signalTest"/>
+    </Info>
+    <Info name="myTestSuite" type="TAGS">
+        <Info value="piltest"/>
+    </Info>
+</Info>

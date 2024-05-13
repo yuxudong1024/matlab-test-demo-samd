@@ -1,0 +1,3 @@
+function openCodeQuality()
+codeQualityDashboard;
+end
