@@ -4,7 +4,7 @@ name: MATLAB Build
 
 # Controls when the action will run. 
 on: 
-  #push:                       # Runs on push events
+  push:                       # Runs on push events
   #pull_request:               # Runs on pull requests
   workflow_dispatch:          # Allows you to run this workflow manually from the Actions tab
 
@@ -32,7 +32,7 @@ jobs:
           cache: true
  
       - name: Run ${{ matrix.os }} build to create MEX file and run tests on it
-        uses: matlab-actions/run-build@v2
+        uses: matlab-actions/run-tests@v2
         with:
           test-results-junit: test-results/results.xml
           code-coverage-cobertura: code-coverage/coverage.xml
