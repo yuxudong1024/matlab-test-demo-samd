@@ -11,7 +11,10 @@ ecgnet =  fullfile(datafilepath,'ECGNet');
 
 ecgdata = fullfile(datafilepath,'ECGData');
 
-answer = questdlg('Download the Deep Learning network and patient data?', 'Yes', 'No');
+% We need to run CI/CD, nobody can type Yes for automation
+% answer = questdlg('Download the Deep Learning network and patient data?', 'Yes', 'No');
+
+answer = 'Yes';
 
 switch answer
     case 'Yes'

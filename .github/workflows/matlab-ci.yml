@@ -30,10 +30,19 @@ jobs:
         uses: matlab-actions/setup-matlab@v2
         with:
           cache: true
+
+      - name: Start display server (required for building doc in MATLAB)
+        run: |
+          Xvfb :99 & 
+          echo "DISPLAY=:99" >> $GITHUB_ENV
  
-      - name: Run ${{ matrix.os }} build to create MEX file and run tests on it
-        uses: matlab-actions/run-tests@v2
+#      - name: Run ${{ matrix.os }} build to run tests on it
+#        uses: matlab-actions/run-tests@v2
+#        with:
+#          test-results-junit: test-results/results.xml
+#          code-coverage-cobertura: code-coverage/coverage.xml
+ 
+      - name: Run un ${{ matrix.os }} with script
+        uses: matlab-actions/run-command@v2
         with:
-          test-results-junit: test-results/results.xml
-          code-coverage-cobertura: code-coverage/coverage.xml
- 
+          command: myscript
