@@ -36,13 +36,13 @@ jobs:
           Xvfb :99 & 
           echo "DISPLAY=:99" >> $GITHUB_ENV
  
-#      - name: Run ${{ matrix.os }} build to run tests on it
-#        uses: matlab-actions/run-tests@v2
-#        with:
-#          test-results-junit: test-results/results.xml
-#          code-coverage-cobertura: code-coverage/coverage.xml
- 
-      - name: Run un ${{ matrix.os }} with script
-        uses: matlab-actions/run-command@v2
+      - name: Run ${{ matrix.os }} build to run tests on it
+        uses: matlab-actions/run-tests@v2
         with:
-          command: myscript
+          test-results-junit: test-results/results.xml
+          code-coverage-cobertura: code-coverage/coverage.xml
+ 
+ #     - name: Run un ${{ matrix.os }} with script
+ #       uses: matlab-actions/run-command@v2
+ #       with:
+ #         command: myscript
