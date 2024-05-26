@@ -8,10 +8,11 @@ if isempty(cc)
 end
 
 % Check for MATLAB Coder NVIDIA Support Package
-nv = which("jetson");
-if isempty(nv)
-    errMsg = [errMsg;"<a href=""matlab:matlab.internal.addons.launchers.showExplorer('product',Identifier='NVIDIA')"">MATLAB Coder Support Package for NVIDIA Jetson and NVIDIA DRIVE Platforms</a>"];
-end
+% Disable Jetson board for now since GitHub Action don't support it yet
+% nv = which("jetson");
+% if isempty(nv)
+%     errMsg = [errMsg;"<a href=""matlab:matlab.internal.addons.launchers.showExplorer('product',Identifier='NVIDIA')"">MATLAB Coder Support Package for NVIDIA Jetson and NVIDIA DRIVE Platforms</a>"];
+% end
 
 % If we are missing dependencies, error so it's caught at project startup
 if ~isempty(errMsg)
