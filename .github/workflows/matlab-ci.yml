@@ -36,8 +36,8 @@ jobs:
             MATLAB_Compiler
             MATLAB_Compiler_SDK
             Parallel_Computing_Toolbox
+            MATLAB_Coder_Support_Package_for_NVIDIA_Jetson_and_NVIDIA_DRIVE_Platforms
     # Remove Jetson board for Action Since support pacakge can't be installed 
-    # MATLAB_Coder_Support_Package_for_NVIDIA_Jetson_and_NVIDIA_DRIVE_Platforms
 
       - name: Start display server (required for building doc in MATLAB)
         run: |
