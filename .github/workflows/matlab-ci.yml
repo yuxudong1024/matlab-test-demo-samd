@@ -34,6 +34,9 @@ jobs:
           products: |
             MATLAB
             MATLAB_Test
+            MATLAB_Coder
+            Requirements_Toolbox
+            GPU_Coder
             MATLAB_Compiler
             MATLAB_Compiler_SDK
             Parallel_Computing_Toolbox
